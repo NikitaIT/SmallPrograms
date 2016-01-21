@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//оптимальна для n<=max(a{n})
+
 template<typename T> T maxp(T a[],const unsigned long n){
 	int max1(-1488), min1(228),max2(-1488),min2(228);
 	for (int i(0); i < n; i++)
